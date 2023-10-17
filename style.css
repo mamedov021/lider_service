@@ -41,6 +41,7 @@ header .faq_2 {
     align-items: center;
 }
 .contact .tel{
+    
     display: grid;
     grid-template-columns: 1fr 1fr ;
     gap:4rem;    
