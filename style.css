@@ -10,7 +10,7 @@
        font-size: 62.5%;
   }
   header{
-    height: 45px;
+    height: 4.5rem;
     background-color: #2B343B;
     display: flex;
     justify-content:space-around;
@@ -20,7 +20,7 @@
   }
 header a{
     color: #fff;
-    font-size:1.5rem;
+    font-size:1.7rem;
 }
 header .faq_1  { 
  
@@ -33,28 +33,292 @@ header .faq_2 {
     gap: 3rem;
     align-items:center;
 }
+header .faq_2 span {
+    padding-left:10px
+
+}
 .contact {
-    height: 16rem;
+    height: 15rem;
     display: flex;
     justify-content:space-around;
-    font-size: 1.6rem;
+    font-size: 1.7rem;
     align-items: center;
 }
-.contact .tel{
-    
+.contact .tel{ 
     display: grid;
     grid-template-columns: 1fr 1fr ;
-    gap:4rem;    
+       
 }
 .contact .tel i{
     margin: 1rem;
 }
  
 .contact  button{
+    display: flex;
+    align-items: center;
+    justify-content:center;
     background: linear-gradient(180deg, #F32735 0%, #A7111C 100%);
-    width: 113px;
-    height:51px; 
+    color: #fff;
+    font-size: 2.5rem;
+    font-style: italic;
+    font-weight: 900;
+
+    width: 11.5rem;
+    height:5rem; 
     border: none;
     border-radius:10px;
 }
 
+
+ /********************************************************/
+.navbar{
+    
+    background: linear-gradient(90deg, #016BAF 0%, #034A78 100%);
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.25);
+    padding-left: 8%;
+}
+.navbar ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.7rem;
+    height: 6.2rem;
+    color: #fff;
+    
+}  
+.navbar .nested_list{ 
+    display:none;
+    position:absolute;
+    background: linear-gradient(90deg, #016BAF 0%, #034A78 100%);
+    height:  max-content !important;
+    width: 15%;
+    padding: 2rem 1rem;
+    
+    z-index: 2;
+    top:25.7rem;
+
+}
+.show{
+    display: flex !important;
+    flex-direction: column;
+    gap:1.5rem;
+    left:15%
+   
+}
+ 
+.navbar li{
+    cursor: pointer;
+}
+ 
+
+
+/**********************************************************************************/
+.container_1{ 
+   width: 100%;
+    height: 65vh; 
+}
+.swiper {
+    width: 100%;
+    height: 100%; 
+  }
+   
+  .swiper-slide {
+    height: 100%;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+ 
+  .container_1 .swiper-wrapper .swiper-slide:nth-child(1) {
+    background-image: url("/media/banner-1 1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover
+}
+
+.container_1 .swiper-wrapper .swiper-slide:nth-child(2) {
+    background-image: url("/media/banner-2 1.png");
+     background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover
+}
+
+.container_1 .swiper-wrapper .swiper-slide:nth-child(3) {
+    background-image: url("/media/banner-3-bg 1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover
+}
+
+.container_1 .swiper-wrapper .swiper-slide:nth-child(4) {
+    background-image: url("/media/banner-4 1.png"); 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover
+}
+.container_1 .slide1, .slide2, .slide4{
+    display: flex !important;
+    justify-content:flex-start;
+    align-items: center ;
+    
+
+
+}
+.container_1 .slide1, .slide2, .slide4 .info{
+    text-align: left;
+    padding-left: 10%;
+}
+.container_1    h1{
+    color: #0071BB;
+    font-size: 5rem;
+}
+
+.container_1 .slide1 .time{
+    background-color:#F32735;
+    color: #fff;
+    width: 20rem;
+    height: 6rem;
+    font-size: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    font-weight: 700;
+    line-height: 60px;
+
+    
+
+
+}
+.container_1 .slide1, .slide2, .slide4 p{
+    color:#2B343B;
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 60px;
+   
+}
+.container_1 .slide2 .time{
+    width: 250px;
+    height: 67px;  
+    background-color:#F32735;
+    color: #fff;  
+    font-size: 32px;
+    font-weight: 700; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+.container_1 .slide3{
+    display: flex;
+    color: #fff;
+}
+.container_1    .slide3 h1{
+    color: #fff;
+    font-size: 5rem;
+    text-align: left;
+}
+.container_1    .slide3 p{
+    font-size: 30px;
+    text-align: left;
+     
+}
+.container_1 .slide4 .time{ 
+    width: 250px;
+    height: 67px;  
+    background-color:#F32735;
+    color: #fff;  
+    font-size: 32px;
+    font-weight: 700; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+ 
+
+
+
+.container_2{
+    padding-top: 6rem;
+     text-align: center;
+}
+.container_2 h2{
+    font-size: 3.5rem;
+    color: #2B343B;
+}
+.carousel-slider * {
+    touch-action: manipulation;
+}
+
+.carousel-slider {
+    position: relative;
+    background: #fff;
+    width: 100%;
+    height: auto;
+    padding: 0;
+    overflow: hidden;
+}
+
+.carousel-slider > .carousel-content {
+    position: relative;
+    -webkit-display: inline-flex;
+    -moz-display: inline-flex;
+    -ms-display: inline-flex;
+    -o-display: inline-flex;
+    display: inline-flex;
+    user-select: none;
+}
+
+.carousel-slider > .carousel-content > .slide-item {
+    background: white;
+  height: 15rem;
+   padding :4rem;
+}
+
+.carousel-slider .carousel-next-btn,
+.carousel-slider .carousel-prev-btn {
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 10px 14px 8px 14px;
+    outline: none;
+    border: none;
+    transition: all 0.25s ease-in-out;
+    text-align: center;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    transform: translate(0%, -50%);
+    -ms-transform: translate(0%, -50%);
+    min-height: 40px;
+    min-width: 40px;
+}
+
+.carousel-slider .carousel-next-btn:hover,
+.carousel-slider .carousel-prev-btn:hover {
+    background-color: black;
+    cursor: pointer;
+}
+
+.carousel-slider .carousel-next-btn {
+    position: absolute;
+    right: 0;
+}
+
+.carousel-slider .carousel-prev-btn {
+    position: absolute;
+    left: 0;
+}
+
+ 
+
+.carousel-slider:hover .carousel-next-btn,
+.carousel-slider:hover .carousel-prev-btn,
+.carousel-slider:hover .carousel-pagination {
+    opacity: 1;
+}
