@@ -322,12 +322,32 @@ header .faq_2 span {
     opacity: 1;
 }
 .container_2 .elements{
-     display: flex;
+     
+     display: grid;
+    grid-template-columns: auto auto auto auto;
     justify-content: center;
+    gap: 3rem;
+     
 }
  .container_2 .element{
 background-image: url(/media/Temir/Group.png);
 background-position: center;
 background-size: cover;
-width: 20%;
+Width:245px;
+Height:291px;
+background-color: #016caf6b;
+display: block;
 }
+.container_2 .element button{
+    width: 20rem;
+    height: 10rem; 
+    border-radius: 10rem 10rem 0 0;
+    bottom: 0;
+}
+.container_2 .element button:active{
+    background-color: #0071BB;
+ 
+}
+.container_2 .elements .hidden {
+    display: none;
+  }
