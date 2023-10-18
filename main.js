@@ -206,4 +206,7 @@ var swiper = new Swiper(".mySwiper", {
     return this;
 };
 
+
+
 carousel();
+
