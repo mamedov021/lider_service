@@ -318,7 +318,16 @@ header .faq_2 span {
  
 
 .carousel-slider:hover .carousel-next-btn,
-.carousel-slider:hover .carousel-prev-btn,
-.carousel-slider:hover .carousel-pagination {
+.carousel-slider:hover .carousel-prev-btn  {
     opacity: 1;
+}
+.container_2 .elements{
+     display: flex;
+    justify-content: center;
+}
+ .container_2 .element{
+background-image: url(/media/Temir/Group.png);
+background-position: center;
+background-size: cover;
+width: 20%;
 }
