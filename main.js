@@ -210,3 +210,13 @@ var swiper = new Swiper(".mySwiper", {
 
 carousel();
 
+
+let show_all=document.querySelectorAll('#showAll');
+let hid_element  = document.querySelectorAll('.element .hidden');
+show_all.addEventListener('click', ()=>{
+    hid_element.forEach(element => {
+        //hid_element.style.display = 'block';
+        hid_element.classList.remove('hidden');
+    });
+    showAllButton.disabled = true;
+})
