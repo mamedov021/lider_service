@@ -7,7 +7,7 @@ toggle_able.addEventListener("click",()=>{
 });
   
 var swiper = new Swiper(".mySwiper", {
-    cssMode: true,
+     
     navigation: {
       nextEl: ".swiper-button-next",
       prevEl: ".swiper-button-prev",
@@ -15,6 +15,7 @@ var swiper = new Swiper(".mySwiper", {
     pagination: {
       el: ".swiper-pagination",
     },
+    
    
     keyboard: true,
     
@@ -24,6 +25,28 @@ var swiper = new Swiper(".mySwiper", {
 
 
 
+  var swiper_1 = new Swiper(".mySwiper_1", {
+    slidesPerView: 4,
+    spaceBetween: 30,
+    freeMode: true,
+    navigation: {
+      nextEl: ".swiper-button-next_1",
+      prevEl: ".swiper-button-prev_1"
+    },
+    
+  });
+
+  var swiper_2 = new Swiper(".mySwiper_2", {
+    slidesPerView: 4,
+    spaceBetween: 30,
+    freeMode: true,
+    navigation: {
+      nextEl: ".swiper-button-next_2",
+      prevEl: ".swiper-button-prev_2"
+    },
+    //loop: true 
+  });
+  
 
 
 
@@ -210,13 +233,4 @@ var swiper = new Swiper(".mySwiper", {
 
 carousel();
 
-
-let show_all=document.querySelectorAll('#showAll');
-let hid_element  = document.querySelectorAll('.element .hidden');
-show_all.addEventListener('click', ()=>{
-    hid_element.forEach(element => {
-        //hid_element.style.display = 'block';
-        hid_element.classList.remove('hidden');
-    });
-    showAllButton.disabled = true;
-})
+ 
