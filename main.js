@@ -34,6 +34,8 @@ var swiper = new Swiper(".mySwiper", {
       prevEl: ".swiper-button-prev_1"
     },
     
+
+    
   });
 
   var swiper_2 = new Swiper(".mySwiper_2", {
