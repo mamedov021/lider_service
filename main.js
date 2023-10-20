@@ -33,6 +33,10 @@ var swiper = new Swiper(".mySwiper", {
       nextEl: ".swiper-button-next_1",
       prevEl: ".swiper-button-prev_1"
     },
+    loop: true,
+    autoplayEffect: true,
+    delay: 3000,
+    ltr:true
     
 
     
@@ -49,7 +53,36 @@ var swiper = new Swiper(".mySwiper", {
     //loop: true 
   });
   
-
+  
+  var swiper = new Swiper(".mySwiper_3", {
+    slidesPerView: 5,
+    spaceBetween: 30,
+    loop:true,
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+    navigation: {
+      nextEl: ".swiper-button-next_3",
+      prevEl: ".swiper-button-prev_3",
+    },
+    breakpoints: {
+        400: {
+            slidesPerView: 1,
+          },
+          
+        768: {
+          slidesPerView: 2,
+        },
+        
+        992: {
+          slidesPerView: 4,
+        },
+        1200: {
+            slidesPerView: 5,
+          },
+      },
+  });
 
 
 
