@@ -156,15 +156,25 @@ var swiper_ = new Swiper(".mySwiper_4", {
 
 let add_btn = document.querySelectorAll(".info_4 .add");
 let text_show = document.querySelectorAll(".info_4 .text");
+let header = document.querySelectorAll(".info4  .header");
 
 add_btn.forEach((button, index) => {
   button.addEventListener("click", () => {
+    
+    if (text_show[index].style.display === "block"){
+      text_show[index].style.display = "none"
+    }
+    else{ 
     text_show.forEach((text_show)=>{
         text_show.style.display="none";
     })
-    text_show[index].style.display="block";
+    text_show[index].style.display="block" 
+    
+    
+  
+  }
   });
-  console.log(index)
+   
 });
 
 let carouse4 = (el, parameter) => {
