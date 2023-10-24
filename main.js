@@ -134,7 +134,7 @@ var swiper_ = new Swiper(".mySwiper_4", {
     },
   
     breakpoints: {
-      200: {
+      0: {
         slidesPerView: 1,
       },
       400: {
@@ -157,6 +157,7 @@ var swiper_ = new Swiper(".mySwiper_4", {
 let add_btn = document.querySelectorAll(".info_4 .add");
 let text_show = document.querySelectorAll(".info_4 .text");
 let header = document.querySelectorAll(".info4  .header");
+let h2_tag = document.querySelectorAll(".info4 h2")
 
 add_btn.forEach((button, index) => {
   button.addEventListener("click", () => {
@@ -168,7 +169,9 @@ add_btn.forEach((button, index) => {
     text_show.forEach((text_show)=>{
         text_show.style.display="none";
     })
-    text_show[index].style.display="block" 
+    text_show[index].style.display="block" ;
+    //text_show[index].style.color="red"
+    h2_tag.style.color="red";
     
     
   

@@ -235,6 +235,47 @@ header .faq_2 span {
 .container_2 h2 {
   font-size: 3.5rem;
   color: #2b343b;
+  margin-bottom: 2rem;
+}
+ 
+  .container_2 .temir  h2:after {
+    display: inline-block;
+    margin: 0 0 5px 5px;
+    height: 3px;
+    content: " ";
+    text-shadow: none;
+    background-color:#F32735;
+    width: 35px;
+}
+.container_2 .temir  h2:before {
+    display: inline-block;
+    margin: 0 5px 5px 0;
+    height: 3px;
+    content: " ";
+    text-shadow: none;
+    background-color:#F32735;
+    width: 35px;
+}
+.container_2 .qurasdirilma  h2:after {
+    display: inline-block;
+    margin: 0 0 5px 5px;
+    height: 3px;
+    content: " ";
+    text-shadow: none;
+    background-color:#F32735;
+    width: 35px;
+}
+ 
+.container_2 .qurasdirilma h2:before {                 /*      Why inline block***********************************
+  
+  **--------------------------------------------------------------------------------------------kdfmsojbbbbbbbg--------------------------*/
+  display: inline-block;
+  margin: 0 5px 5px 0;
+  height: 3px;
+  content: " ";
+  text-shadow: none;
+  background-color:#F32735;
+  width: 35px;
 }
 .carousel-slider * {
   touch-action: manipulation;
@@ -639,12 +680,15 @@ header .faq_2 span {
 
 /*************************************************************************/
 .feedback {
-  width: 80%;
-  margin: auto;
+  width:100%;
+ 
+  padding: 1rem 10%
   
 }
 .feedback .swiper-wrapper{
   padding-bottom: 50px;
+  display: flex;
+  
 }
 .feedback h1 {
   margin: 4rem;
@@ -791,10 +835,17 @@ header .faq_2 span {
 }
 
 /*          --------------------------------                     */
-footer {
+footer{
+  width: 85%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+}
+footer .footer_element {
   padding: 5rem 3rem;
   display: flex;
-  justify-content: space-around;
+  justify-content:space-between; 
   gap:5%
 }
 footer .logo    {
@@ -821,13 +872,95 @@ footer .logo .media i{
   color: #0071BB;
   border: 1px solid #0071BB;
   border-radius:50%;
+  display: flex; 
+justify-content: center;
+align-items: center;
 }
 footer .logo .media i::before{
   display:flex;
-  justify-content:center;
-  align-items: center;
+ 
 }
-.footer .map .tags{
+footer .map .tags{
   display:grid;
   grid-template-columns: 1fr 1fr;;
 }
+footer .map .tags a{
+  color:#2B343B;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  margin: 1rem ;
+ 
+  
+}
+footer .connections{
+  display: flex;
+}
+footer .connections .location {
+  display: flex;
+  flex-direction:column;
+}
+footer .map .tags a img{
+
+}
+footer .map  h2 img{
+  display:inline;
+  color:#0071BB;
+  width: 3px;
+  height: 20px
+}
+footer .map h2{
+  font-size:20px;
+  line-height:26px;
+}
+
+footer .elaqe h2{
+  font-size:20px;
+  margin: 0 0 2rem 2rem;
+}
+footer .elaqe  i{
+  margin: 0 1rem;
+}
+footer .elaqe .tel  {
+  font-size: 1.5rem;
+  display: flex;
+  flex-direction:column;
+  gap:1.5rem
+}
+footer .elaqe .tel  {
+  margin: 1rem;
+}
+footer .location a{ 
+  font-size:1.5rem;
+  color:#2B343B;
+  margin-top:1.5rem;
+}
+footer .location a i{ 
+  margin:0 1rem;
+}
+footer .location {
+  margin: 0 2.5rem;
+}
+.footer_info{
+  height: 3rem;
+
+  color:#979797;
+  font-size:1.6rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+@media (max-width:1200) {
+  footer .elaqe{
+    display:block;
+  }
+  
+}
+
+
+
+
+
+
+
+ 
