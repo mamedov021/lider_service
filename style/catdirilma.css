@@ -47,10 +47,16 @@ body{
     font-size:16px;
     color: #565656;
 }
-.elaqe_btn{
+.elaqe_btn button{
     width: 230px;
 height: 72.63px;
 border-radius: 8px;
- left:45%
+ left:45%;
+ background-color: #0071BB;
+ color: #fff;
+}
+.elaqe_btn {
+    display: flex;
+    justify-content: center;
 }
 
