@@ -26,6 +26,32 @@
 }
 
 
+.temir_page::before{
+  background: url(/media/Temir/Frame\ \(1\).png);
+  position: absolute;
+  content: '';
+  width: 192px;
+  height: 138px;
+  margin: 8rem;
+  z-index: -5;
+  margin: 6%;
+    
+
+}
+.temir_page::after{
+  background: url(/media/Temir/Frame\ \(1\).png);
+  position: absolute;
+  content: '';
+  width: 192px;
+  height: 138px;
+  margin: 8rem;
+  z-index: -5;
+  margin: 6%;
+    
+
+}
+
+
 .temir_page .elements {
     display: flex;
     flex-direction: column;
@@ -47,12 +73,12 @@
     background-size: cover;
     position: relative;
     height: 30rem;
-    width: 30rem;
+    width: 25rem;
     padding-top: 1rem;
     background-color: #90bedc69;
     display: block;
     text-align: center;
-    
+    z-index: 1;
   }
   .temir_page .element  h3{
     padding: 2rem;
@@ -75,14 +101,20 @@
     left: 50%;
     transform: translate(-50%);
     bottom: 0;
+    background: linear-gradient(to right, #0071bb 50%, white 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    transition: all .5s ease-out;
   }
+  .temir_page .element button:hover {
+  
+    background-position: left bottom;
+   }
   .temir_page .element button i {
     color: #0071bb;
   }
   
-  .temir_page .element button:hover {
-    background-color: #0071bb;
-  }
+  
   .temir_page .element button:hover i {
     color: #fff;
   }

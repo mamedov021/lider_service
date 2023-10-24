@@ -1,0 +1,56 @@
+body{
+    background-color: #03365726;
+}.content{
+    background-image:url(/media/image\ 23.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height:18rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.content h1{
+    color:#fff;
+    font-size: 3.6rem;
+ 
+}
+.content p a{
+    padding-top:6rem;
+    font-size: 1.em;
+    color: #fff;
+}
+.content p{
+    color: #fff;
+    font-size: 1.5rem;
+    padding-top:2rem;
+
+}
+.catdirilma{
+    display:flex;
+    flex-direction:column;
+    margin: 3rem 10%;
+    background-color: #fff;
+    padding: 4rem;
+    gap: 2rem;
+}
+.catdirilma .info{
+    display:flex;
+    flex-direction:column;
+    gap :2rem
+}
+.catdirilma h1{
+    font-size: 36px;
+}
+.catdirilma p{
+    font-size:16px;
+    color: #565656;
+}
+.elaqe_btn{
+    width: 230px;
+height: 72.63px;
+border-radius: 8px;
+ left:45%
+}
+

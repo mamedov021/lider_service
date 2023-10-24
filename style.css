@@ -382,14 +382,21 @@ header .faq_2 span {
   left: 50%;
   transform: translate(-50%);
   bottom: 0;
+  background: linear-gradient(to right, #0071bb 50%, white 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    transition: all .5s ease-out;
+}
+.container_2 .element button:hover {
+  background-color: #0071bb;
+  background-position: left bottom;
+
 }
 .container_2 .element button i {
   color: #0071bb;
 }
 
-.container_2 .element button:hover {
-  background-color: #0071bb;
-}
+
 .container_2 .element button:hover i {
   color: #fff;
 }
@@ -408,14 +415,14 @@ header .faq_2 span {
   width: 25rem;
   height: 4rem;
   border: 1px solid #0071bb;
-  color: #0071bb;
+  color:#2b343b ;
   margin: 5rem;
   border-radius: 8px;
   font-size: 1.6rem;
 }
 .container_2 .showAll:hover {
   background-color: #0071bb;
-  color: #fff;
+  color: #fff !important;
 }
 .container_2 .logos {
   margin: auto;
@@ -429,10 +436,7 @@ header .faq_2 span {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  text-align: center;
-  /* background: #00ff00 url(/media/15.png) no-repeat fixed center; */
-
-  /* background: url(/media/15.png), lightgray 0px -168px / 100% 130.969% no-repeat; */
+  text-align: center; 
   background: linear-gradient(rgba(0, 81, 136, 0.85), rgba(0, 81, 136, 0.95)),
     url("./media/15.png");
      
@@ -457,7 +461,7 @@ header .faq_2 span {
 /*////////////////////////////////////////////////////////////////////////////////////////////*/
 .haqqinda {
   display: flex;
-   
+  height: 80vh;
   padding: 10%;
   background-image: url(/media/4907156\ 1.png);
   background-position: center;

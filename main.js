@@ -31,7 +31,7 @@ var swiper_1 = new Swiper(".mySwiper_1", {
   },
   loop: true,
   autoplay: true,
-  delay: 3000,
+  delay: 5000,
   breakpoints: {
     400: {
       slidesPerView: 1,
@@ -77,7 +77,7 @@ var swiper_2 = new Swiper(".mySwiper_2", {
   },
   loop: true,
   autoplay: true,
-  delay: 2500,
+  delay: 5000,
 });
 
 var swiper_ = new Swiper(".mySwiper_3", {
@@ -85,7 +85,7 @@ var swiper_ = new Swiper(".mySwiper_3", {
   spaceBetween: 30,
   loop: true,
   autoplay: {
-    delay: 1000,
+    delay: 5000,
   },
   pagination: {
     el: ".swiper-pagination",
@@ -122,7 +122,7 @@ var swiper_ = new Swiper(".mySwiper_4", {
     spaceBetween: 30,
     loop: true,
     autoplay: {
-      delay: 1000,
+      delay: 5000,
     },
     pagination: {
       el: ".swiper-pagination",
@@ -170,8 +170,8 @@ add_btn.forEach((button, index) => {
         text_show.style.display="none";
     })
     text_show[index].style.display="block" ;
-    //text_show[index].style.color="red"
-    h2_tag.style.color="red";
+      //text_show[index].style.color="red"
+ 
     
     
   
