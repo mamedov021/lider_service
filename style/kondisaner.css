@@ -28,11 +28,33 @@
 .kondisioner{
     display: grid;
     grid-template-columns: 1fr 1fr;
+    background-color: #F8F9FA;
+    margin: 10%;
+    gap:3rem;
+
+}
+.kondisioner .box_1
+{
+    background-color: #FAFBFC;
+    padding: 1rem;
 }
 .zemanetli_temir {
-    display:flex;
+    display:flex; 
+    gap:1rem
 }
 
+.zemanetli_temir .property h3{
+    margin: 2rem;
+}
+.kondisioner .box_1 p{
+    color: #565656;
+    font-size: 1.6rem;
+    padding: 2rem;
+}
+.kondisioner .box_1 h3{
+    color: #2B343B;
+    font-size: 2rem;
+}
 .temir_elaqe{
          background-color: #0071BB; 
          width: 60%;
@@ -74,4 +96,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.box_2   ul li{
+    font-size:1.6rem;
+    padding: 1rem;
+    border: 1px solid #DEE0E5;
+    width: 40%;
 }
