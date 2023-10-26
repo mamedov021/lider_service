@@ -19,6 +19,24 @@ header {
   align-items: center;
   color: #fff;
 }
+@media (max-width:1080px){
+  header{
+    display: none !important;
+  }
+  .contact  .tel, .num_180{
+    display: none;
+  }
+
+
+}
+@media (max-width:681px){
+ 
+  .contact  .tel  {
+    display: none;
+  }
+  
+
+}
 header a {
   color: #fff;
   font-size: 1.7rem;

@@ -1,5 +1,5 @@
-let toggle_able = document.querySelector(".fa-chevron-down");
-let list = document.querySelector(".nested_list");
+let toggle_able = document.querySelector(".toggle_able .fa-chevron-down");
+let list = document.querySelector(".toggle_able .nested_list");
 toggle_able.addEventListener("click", () => {
   list.classList.toggle("show");
 });
