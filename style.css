@@ -9,7 +9,7 @@ html {
   font-size: 62.5%;
 }
 body{
-  width: 100%;
+  width: 100% !important;
 }
 header {
   height: 4.5rem;
@@ -21,21 +21,109 @@ header {
 }
 @media (max-width:1080px){
   header{
-    display: none !important;
-  }
-  .contact  .tel, .num_180{
-    display: none;
-  }
+    display: none ;
 
+  }
+  .contact   .num_180{
+    display: none;
+  } 
+ 
+}
+@media (min-width:681px){
+  .hamburger_menu{
+   top: 8rem !important;
+   left: 0;
+   width: 100% !important;  
+  }
+  .hamburger_menu ul{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+  }
+  .nested_list{
+    position:absolute ;
+    width: 25rem !important;
+  }
+}
+
+@media (min-width:1080px){
+  .hamburger_menu{
+   top: 12rem !important;
+   left: 0;
+   width: 100% !important;
+   
+  }
+  .hamburger_menu ul{
+    display: flex;
+  }
+  .nested_list{
+    position:absolute ;
+    
+  }
 
 }
-@media (max-width:681px){
- 
-  .contact  .tel  {
-    display: none;
-  }
-  
 
+@media (max-width:681px){ 
+  .contact  .tel  {
+    display: none !important; 
+  } 
+   
+.navbar {
+  display: none;
+}
+.toggle_3{
+  display: flex !important;
+}
+.contact{
+  background-color:#42454876;
+  height: 8rem !important;
+}
+
+}
+  .toggle_3{
+    display: none
+  }
+  @keyframes mymove {
+    from {top: 0px;}
+    to {top: 8rem;}
+  }
+ .hamburger_menu{
+  
+  background-color:#0071BB;
+  width: 40%;
+  z-index: 9;
+  position: absolute;
+  right: 8%;
+ 
+  animation: mymove 1s forwards;
+
+
+} 
+.hamburger_menu ul{
+
+  margin : 3rem 0;
+}
+/* .hamburger_menu .toggle_able{
+  position: relative;
+} */
+.hamburger_menu ul a{
+  color: #fff;
+}
+.hamburger_menu ul li {
+  margin:1rem;
+  color: #fff;
+  
+}
+.hamburger_menu   .nested_list {
+  display: none;
+  padding: 0;
+  margin: 0;
+ 
+  background: linear-gradient(90deg, #016baf 0%, #034a78 100%);
+  height: max-content !important;
+  width: 100%;
+  /* padding: 2rem 1rem; */
+  z-index: 2;
 }
 header a {
   color: #fff;
@@ -54,11 +142,12 @@ header .faq_2 span {
   padding-left: 10px;
 }
 .contact {
-  height: 15rem;
+  height: 8rem;
   display: flex;
   justify-content: space-around;
   font-size: 1.7rem;
   align-items: center;
+  
 }
 .contact .tel {
   display: grid;
@@ -84,6 +173,12 @@ header .faq_2 span {
   border-radius: 10px;
 }
 
+/* @media(min-width:1020px){
+  .contact{
+    height: 10rem;
+  }
+} */
+
 /********************************************************/
 .navbar {
   background: linear-gradient(90deg, #016baf 0%, #034a78 100%);
@@ -98,6 +193,10 @@ header .faq_2 span {
   height: 6.2rem;
   color: #fff;
 }
+.navbar ul li{
+  color: #fff;
+}
+
 .navbar .nested_list {
   display: none;
   position: absolute;
@@ -109,7 +208,10 @@ header .faq_2 span {
   z-index: 2;
   top: 25.7rem;
 }
-.navbar .show {
+
+
+
+.hamburger_menu .show {
   display: flex !important;
   flex-direction: column;
   gap: 1.5rem;
@@ -117,11 +219,17 @@ header .faq_2 span {
   align-items: flex-start !important;
 }
 
-.navbar li {
+.navbar li  {
   cursor: pointer;
 }
 
 /**********************************************************************************/
+
+@media(min-width:681px){
+  .container_1{
+    margin-top: 12rem;
+  }
+}
 .container_1 {
   width: 100%;
 }

@@ -1,8 +1,27 @@
-let toggle_able = document.querySelector(".toggle_able .fa-chevron-down");
-let list = document.querySelector(".toggle_able .nested_list");
+let toggle_able = document.querySelector(".hamburger_menu .toggle_able .fa-chevron-down");
+let list = document.querySelector(".hamburger_menu .toggle_able .nested_list");
 toggle_able.addEventListener("click", () => {
+  console.log('ss');
   list.classList.toggle("show");
 });
+ 
+ 
+let btn = document.querySelector(".toggle_3")
+let hamburger = document.querySelector(".hamburger_menu");
+
+btn.addEventListener("click", () => {
+  console.log('click oldu');
+ 
+  if(hamburger.style.display === "block"){
+    hamburger.style.display='none '; 
+  }
+  else{
+    hamburger.style.display='block';
+  }
+    
+})
+
+ 
 
 var swiper = new Swiper(".mySwiper", {
   autoplay: {
