@@ -33,6 +33,14 @@
     gap:3rem;
 
 }
+@media (max-width:720px) {
+    .kondisioner{
+        display: grid;
+        grid-template-columns: 1fr;
+    
+    }
+    
+}
 .kondisioner .box_1
 {
     background-color: #FAFBFC;

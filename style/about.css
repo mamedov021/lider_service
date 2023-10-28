@@ -1,0 +1,122 @@
+body{
+    background-color: rgba(216, 224, 221, 0.89);
+}
+.content{
+    background-image:url(/media/image\ 23.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height:18rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.content h1{
+    color:#fff;
+    font-size: 3.6rem;
+ 
+}
+.content p a{
+    padding-top:6rem;
+    font-size: 1.em;
+    color: #fff;
+}
+.content p{
+    color: #fff;
+    font-size: 1.5rem;
+    padding-top:2rem;
+
+}
+
+
+.about{
+     display:flex;
+     justify-content:center; 
+     width: 100%;
+    
+
+}
+.about .haqqinda_1{
+    margin-top: 5rem;
+    display:flex;
+    flex-direction:column;
+    height: max-content;
+    width: 70%;
+    padding: 5rem;
+    background-color: white; 
+} 
+.about .haqqinda_1 .info{
+    margin-top: 2rem;
+}
+.about .haqqinda_1 .info p{
+    color:#565656;
+    font-size: 16px;
+    margin: 1rem;
+}
+.about .info .main{
+    display: flex;
+    gap: 2rem;
+    margin-top:2rem
+
+}
+.about .text{
+    width:80% ;
+    
+}
+.about .info .main img{
+    width: 35px;
+    height: 35px; 
+    
+}
+.service_info h1{
+    font-size:36px;
+}
+.service_info h4{
+    font-size:16px;
+    color: #2B343B;
+}
+.service_info {
+    margin:5%;
+    width:70%;
+    padding: 5% 25%  5% 5%;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+   
+}
+ .service_info ul li{
+  list-style-type: disc !important;
+  color:#565656;
+  font-size: 16px;
+  margin-top: 1rem;
+  gap: 1rem;
+
+}
+.service_info p{
+    color: #565656;
+    font-size: 16px;
+}
+.service{
+    display: flex;
+     position: relative;
+}
+ 
+.service img{
+    width: 35rem;
+    height: 45rem; 
+    position: absolute;
+    left:63%;
+    top:15%
+     
+    
+}
+.service img:before {
+    content: '';
+    position: absolute; 
+    border: 1px solid #0071BB;
+
+
+     
+}

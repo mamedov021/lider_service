@@ -1,0 +1,108 @@
+.sifaris {
+    background-color: #ffffff54;
+  
+    padding: 8rem 3.5rem;
+    border-radius: 12px 0 0 12px;
+}
+.mtt{
+    width: 50%;
+}
+.usta-sifarisi{
+    display: flex;
+}
+.usta-sifarisi h1{
+    margin:1rem;
+}
+ 
+input{
+    height: 5rem;
+}
+.sifaris_info{
+    height: 10rem;
+}
+.sifaris  .input{
+    display: flex;
+    flex-direction: column;
+    gap:2rem;
+    width: 40rem;
+}
+#submit{
+    background-color: #0071BB;
+  color: #fff;
+  border-radius: 5px;
+  width: 24rem;
+  height: 5rem;
+  border: none;
+  font-size: 20px;
+  margin: 3rem 0;
+}
+#submit:hover{
+    background-color:white;
+    color: #0071bb;
+    border: 1px solid #0071BB;
+
+}
+.mtt{
+    background-image: linear-gradient(to right, rgba(3, 101, 187, 0.881), rgba(2, 67, 124, 0.84)), url('/media/2511.png');
+    height: 100vh;
+    position: relative;
+    width: 50%;
+  
+}
+.mtt .img_logo{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.mtt .back{
+    background-color: none;
+    color:#fff;
+    display: flex;
+    align-items: center;
+    gap:10px;
+    font-size: 16px;
+    position: static;
+    margin-top:8rem;
+    margin-left:4rem;
+}
+.testiq{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    margin:auto
+ 
+
+}
+.testiq .info{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
+.testiq .info img{
+    width: 80px;
+    height: 80px;
+}
+.testiq .info h3{
+    font-size:36px;
+    color:#2B343B;
+}
+.testiq .info p{
+    font-size:20px;
+    color: #707070;
+    margin: 1rem;
+}
+.testiq   a{
+    background-color:#0071BB;
+    color:#fff;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    width: 20rem;
+    height: 5rem;
+    border-radius: 8px;
+}

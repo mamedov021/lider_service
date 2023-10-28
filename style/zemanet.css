@@ -1,0 +1,125 @@
+  
+ 
+.content{
+    background-image:url(/media/image\ 23.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height:18rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.content h1{
+    color:#fff;
+    font-size: 3.6rem;
+ 
+}
+.content p a{
+    padding-top:6rem;
+    font-size: 1.em;
+    color: #fff;
+}
+.content p{
+    color: #fff;
+    font-size: 1.5rem;
+    padding-top:2rem;
+
+}
+.zemanet{
+    background-color: rgba(216, 224, 221, 0.89);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+     
+
+}
+.zemanet .info{
+    margin: 5rem 15%;
+    background-color: #fff;
+    padding:5rem;
+}
+.zemanet img{
+     width: 100%;
+}
+.zemanet .info .text h2{
+    color:#2B343B;
+    font-size:36px
+}
+.zemanet .info .text_1 h3, p{
+    color: #2B343B;
+    font-size:16px;
+    margin-top: 1rem;;
+}
+.zemanet .info img{
+    margin:2rem
+}
+ 
+.zemanet .info .text_2 p{
+    font-size:16px;
+    line-height:36px;
+    color: #565656;
+} 
+.zemanet .info .text_2 .aid_olan img{
+    width: 15px;
+    height: 15px;;
+}
+.zemanet .info .text_2 .aid_olan{
+    display: flex;
+    align-items: center;
+    color: #00A42E;
+     
+}
+.zemanet .info  .text_2 ul{
+    margin-left:4rem;
+}
+.zemanet .info  .text_2 ul li{ 
+    color: #565656;
+    font-size: 16px;
+    position: relative;
+}  
+.zemanet .info  .text_2 ul li:before {
+    content: "•";
+    position: absolute;
+    left: -1em;
+    color: #0071BB;
+}
+.zemanet .aid_olmayan .red_box{
+    display: flex;
+    align-items: center;
+    color: red;
+}
+.zemanet .aid_olmayan img{
+    width: 15px;
+    height: 15px;
+}
+.zemanet .aid_olmayan ol li{
+    font-size: 16px;
+    list-style-type: numbers;
+    color:#565656;
+    margin: 1rem;
+}
+.zemanet .aid_olmayan ol {
+    padding-left: 5rem;
+}
+.thanks {
+    margin-top: 5rem;
+}
+.thanks h2{
+    
+    color: #2B343B;
+    font-size:16px;
+}
+button{
+    width: 20rem;
+    height: 7rem;
+    background-color: #0071BB;
+    color: white;
+    margin: 3rem auto;
+    border-radius: 8px;
+}
+button:hover{
+    background-color: #fff;
+    color:#0071BB;
+}

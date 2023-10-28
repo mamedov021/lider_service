@@ -30,13 +30,14 @@
     display: flex;
     margin: 5rem 0;
     background-color: #fff;
-    padding:3rem;
+    padding:4rem;
+    width: 30rem;
     border-radius:8px;
 }
 .elaqe_page .location,.mail{
     background-color: #fff;
-    width: 20rem;
-    padding:1rem;
+    width: 30rem;
+    padding:2rem;
     margin: 1rem 0;
     border-radius: 8px;
 }
