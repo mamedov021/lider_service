@@ -9,7 +9,7 @@ html {
   font-size: 62.5%;
 }
 body{
-  width: 100% !important;
+  width: 100%;
 }
 header {
   height: 4.5rem;
@@ -1088,7 +1088,12 @@ footer .location {
 }
 
 
-
+@media (max-width:630px) {
+  .container{
+    width:100%;
+  }
+  
+}
 
 
 

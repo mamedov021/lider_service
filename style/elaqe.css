@@ -29,19 +29,31 @@
     font-size: 1.8rem;
     display: flex;
     margin: 5rem 0;
+    background-color: #fff;
+    padding:3rem;
+    border-radius:8px;
+}
+.elaqe_page .location,.mail{
+    background-color: #fff;
+    width: 20rem;
+    padding:1rem;
+    margin: 1rem 0;
+    border-radius: 8px;
 }
 .elaqe_page{
      width: 100%;
      display: flex;
      flex-direction:column;
-
+     background-color: #8b85855e;
+ 
 }
+
 .elaqe_page .elaqeler{
     display: flex;
     width: 60%;
     justify-content: center;
     
-    gap:5rem;  
+    gap:1rem;  
 }
 .locANDemail {
     align-items: center;
@@ -54,4 +66,19 @@
 .locANDemail a  {
     color:black;
    
+}
+.elaqe_page .service {
+ width: 100%;
+display: flex;
+flex-direction: column;
+align-items: center;
+gap:2rem;
+}
+.elaqe_page .service iframe{
+    width: 80%;
+    margin:3rem;
+}
+
+.elaqe_page .elaqeler{
+    width: 100%;
 }
